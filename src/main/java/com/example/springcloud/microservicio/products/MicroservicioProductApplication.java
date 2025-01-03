@@ -1,4 +1,4 @@
-package com.example.springcloud.microservicio.product;
+package com.example.springcloud.microservicio.products;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
