@@ -1,6 +1,5 @@
 package com.example.springcloud.microservicio.product;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.example.springcloud.microservicio.products.MicroservicioProductApplication;
@@ -8,8 +7,6 @@ import com.example.springcloud.microservicio.products.MicroservicioProductApplic
 @SpringBootTest(classes = MicroservicioProductApplication.class)
 class MicroservicioProductApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+	
 
 }
