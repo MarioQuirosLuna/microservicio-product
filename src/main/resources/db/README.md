@@ -44,6 +44,19 @@ Explicación de las opciones:
 
     -e ORACLE_PWD=mySecurePassword: Establece la contraseña del usuario sys y system a mySecurePassword.
 
+## Iniciar contenedor si esta detenido
+
+1. Listar todos los contenedores (en ejecución y detenidos)
+
+```bash
+$ sudo docker ps -a
+```
+
+2. Ejecutar el contenedor requerido
+
+```bash
+$ sudo docker start <CONTAINER_ID>
+```
 
 ## Conexión por medio de la consola
 
