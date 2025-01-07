@@ -34,7 +34,7 @@ public class ProductController {
 
         if(id.equals(7L)){
             System.out.println("Lentitud de respuesta simulada con id 7 para pruebas Resilience4G!");
-            TimeUnit.SECONDS.sleep(3L);
+            TimeUnit.SECONDS.sleep(4L);
         }
         
         Optional<Product> productOptional = service.findById(id);
