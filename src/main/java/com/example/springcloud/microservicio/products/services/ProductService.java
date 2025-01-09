@@ -3,7 +3,8 @@ package com.example.springcloud.microservicio.products.services;
 import java.util.List;
 import java.util.Optional;
 
-import com.example.springcloud.microservicio.products.entities.Product;
+import com.example.libs.microservicio.commons.entities.Product;
+
 
 public interface ProductService {
     

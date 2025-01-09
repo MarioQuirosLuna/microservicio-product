@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.springcloud.microservicio.products.entities.Product;
+import com.example.libs.microservicio.commons.entities.Product;
 import com.example.springcloud.microservicio.products.services.ProductService;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
